@@ -8,7 +8,7 @@ using System.Web;
 using System.Web.Http;
 using System.Web.Http.Results;
 using System.IO;
-//using System.Web.Mvc;
+using MVC = System.Web.Mvc;
 
 namespace DocuSign.Controllers
 {
@@ -19,9 +19,9 @@ namespace DocuSign.Controllers
 		[Route("send")]
         public JsonResult<ViewUrl> Test()
         {
-			string username = "docusignmarc@gmail.com"; // use your userId (guid), not email address
-			string password = "docusignmarc123";
-			string integratorKey = "cd7de09e-6e24-4970-b909-624e875b8f68";
+			string username = "";
+			string password = "";
+			string integratorKey = "";
 			// initialize client for desired environment (for production change to www)
 			DSC.ApiClient apiClient = new DSC.ApiClient("https://demo.docusign.net/restapi");
 			DSC.Configuration.Default.ApiClient = apiClient;
@@ -114,7 +114,7 @@ namespace DocuSign.Controllers
 		{
 			RecipientViewRequest viewOptions = new RecipientViewRequest()
 			{
-				ReturnUrl = "http://localhost:49899/callback",
+				ReturnUrl = "http://localhost:49899/Finished",
 				ClientUserId = "123",
 				AuthenticationMethod = "email",
 				UserName = envelopeDefinition.Recipients.Signers[0].Name,
