@@ -53,3 +53,13 @@ C:\Users\Marc\Source\Repos\DocuSign\DocuSign\bin\System.IdentityModel.Tokens.Jwt
 C:\Users\Marc\Source\Repos\DocuSign\DocuSign\bin\RestSharp.xml
 C:\Users\Marc\Source\Repos\DocuSign\DocuSign\bin\System.IdentityModel.Tokens.Jwt.pdb
 C:\Users\Marc\Source\Repos\DocuSign\DocuSign\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Marc\Source\Repos\DocuSign\DocuSign\bin\HtmlRenderer.dll
+C:\Users\Marc\Source\Repos\DocuSign\DocuSign\bin\HtmlRenderer.PdfSharp.dll
+C:\Users\Marc\Source\Repos\DocuSign\DocuSign\bin\PdfSharp.Charting.dll
+C:\Users\Marc\Source\Repos\DocuSign\DocuSign\bin\PdfSharp.dll
+C:\Users\Marc\Source\Repos\DocuSign\DocuSign\bin\HtmlRenderer.pdb
+C:\Users\Marc\Source\Repos\DocuSign\DocuSign\bin\HtmlRenderer.PdfSharp.pdb
+C:\Users\Marc\Source\Repos\DocuSign\DocuSign\bin\PdfSharp.xml
+C:\Users\Marc\Source\Repos\DocuSign\DocuSign\bin\PdfSharp.Charting.xml
+C:\Users\Marc\Source\Repos\DocuSign\DocuSign\bin\de\PdfSharp.resources.dll
+C:\Users\Marc\Source\Repos\DocuSign\DocuSign\bin\de\PdfSharp.Charting.resources.dll
